@@ -1,0 +1,38 @@
+{
+  "name": "bowling-game",
+  "version": "1.0.0",
+  "description": "Bowling game implemented in React",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "react:dev": "webpack --watch --mode development",
+    "react:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alephno/bowling-game.git"
+  },
+  "keywords": [
+    "Bowling",
+    "React"
+  ],
+  "author": "Alastair Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alephno/bowling-game/issues"
+  },
+  "homepage": "https://github.com/alephno/bowling-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
